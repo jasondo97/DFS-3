@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A demonstration of what can be accomplished visually through CSS-based design."
+    />
+    <meta name="robots" content="all" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>GREEN THREADS</title>
+    
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    
+  </head>
+  <body>
+   
+     <div class="banner">
+        <div class="slider" style="--quantity: 6">
+            <div class="item" style="--position: 1"><img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/asvdcv.jpg?v=1733276543014" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://cdn.glitch.me/dcb38bdf-1633-435f-8c5d-53eb436c312a/ascd%20sdcaxscd%20d.jpg?v=1733276811827" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/sdvcfv.jpg?v=1733276090688" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/zxmkl%20n.jpg?v=1733276537689" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/dsdvfv.jpg?v=1733276104641" alt=""></div>
+          <div class="item" style="--position: 6"><img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/nhvngvj.jpg?v=1733301560424" alt=""></div>
+            
+          
+        </div>
+        <div class="content">
+            <h1 data-content="GREEN THREADS">
+                GREEN THREADS
+            </h1>
+            <div class="Tittle">
+                <h2>GAME CHANGERS</h2>
+                <p><b>BY JASON DO</b></p>
+                <p>
+                    "Sustainable fashion begins with mindful choices—empowering consumers to balance their desires with responsible consumption."
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+
+
+
+<section class="GAMESTORY"> 
+<div class="row">  
+<div class="col">
+  <p1>"Green Threads" is an educational game that immerses players in the dynamic world of the fashion industry, focusing on its impact on the environment and the economy. Players take on the role of fashion investors, each starting with an initial amount of money to build their own fashion empire(stores, factories, properties). They navigate a board representing a variety of fashion brands, from fast fashion to luxury and sustainable labels. As players build their empire, they must also manage environmental taxes and carbon credits, which reflect the real-world consequences of fashion production and consumption.</p1>
+
+<p2>The game aims to educate players about the environmental effects of their choices. Players who invest in fast fashion brands may face higher environmental taxes, while those who opt for sustainable brands can earn carbon credits, giving them a strategic advantage. Additionally, players who overspend recklessly not only risk economic downfall but also increase their environmental impact, emphasizing the importance of responsible spending and sustainability in fashion. The ultimate goal is to create a successful, environmentally conscious fashion empire while balancing profits and sustainability.</p2> 
+ <div class="GAMESTORY-IMAGE">
+      <img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/zxmkl%20n.jpg?v=1733276537689" alt="photo" style="width:500px;height:600px">
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Image Gallery -->
+  <div class="image-gallery">
+    <img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/sach01.jpg?v=1734258477205" alt="Image 1">
+    <img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/sach02.jpg?v=1734258487739" alt="Image 2">
+    <img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/sach03.jpg?v=1734258492352" alt="Image 3">
+    <img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/sach04.jpg?v=1734258497142" alt="Image 4">
+    <img src="https://cdn.glitch.global/dcb38bdf-1633-435f-8c5d-53eb436c312a/sach05.jpg?v=1734258500195" alt="Image 5">
+  </div>
+
+ 
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="nav-links">
+
+        <li><a href="/INFO.html">INFO</a></li>
+      </ul>
+      <img
+        src="https://cdn.glitch.global/eb4f66ff-10d7-4606-bed6-ab111ca2a8d8/588a64f5d06f6719692a2d13.png?v=1680165728062"
+        alt=""
+        class="menu-btn"
+      />
+    </nav>
+
+    <div class="copyright">
+      <p>https://github.com/users/jasondo97/projects/2/views/1</p>
+    </div>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".full-screen-menu").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
